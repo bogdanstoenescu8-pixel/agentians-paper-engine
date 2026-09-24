@@ -1,0 +1,22 @@
+{
+  "name": "agentians-paper-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pure, deterministic paper-trading accounting engine (buy/sell/valuate) for agentians.family.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.9"
+  }
+}
